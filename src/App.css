@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Onest:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  font-size: normal 12px Onest;
+  color: #2e2e2e;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 500px;
+  min-height: 400px;
+}
+.container {
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.panel {
+  width: 1000px;
+  margin: auto auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 40px;
+}
+.leftside {
+  width: 500px;
+}
+.rightside {
+  width: 450px;
+  gap: 20px;
+}
+.list-panel {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.list-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  padding: 6px;
+}
+.list-information {
+  text-align: left;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.list-button {
+  width: 60px;
+  padding: 6px;
+}
+.list-title {
+  color: #545c51;
+  font: bold 16px Onest;
+  width: 100%;
+}
+.list-status {
+  color: #1c1c1c;
+  font: normal 13px Onest;
+  width: 100%;
+}
+.list-description-green {
+  color: #008c07;
+  font: normal 13px Onest;
+  width: 100%;
+}
+.list-description-red {
+  color: #c40000;
+  font: normal 13px Onest;
+  width: 100%;
+}
+.list-submit {
+  background-color: #a6d400;
+  font: normal 12px Onest;
+  color: #405200;
+  border: 1px solid #405200;
+  border-radius: 5px;
+  margin: auto auto;
+}
+
+.add-panel {
+  margin-top: 25px;
+  padding: 10px 0px;
+  display: block;
+  width: 100%;
+  background-color: #edfac0;
+  border: 1px solid #c6d19f;
+  border-radius: 5px;
+}
+.add-row {
+  display: flex;
+  border: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0px;
+  gap: 5px;
+}
+.add-icon {
+  text-align: center;
+  padding: 4px;
+  flex: 1;
+}
+.add-name {
+  font: normal 12px Onest;
+  color: #2e2e2e;
+  text-align: left;
+  flex: 2;
+}
+.add-input {
+  text-align: left;
+  flex: 4;
+}
+.add-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  padding: 12px;
+  width: 50%;
+  margin: auto auto;
+}
+
+.bill-row {
+  display: flex;
+  border: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px;
+  margin: 10px 0px;
+  gap: 5px;
+}
+.bill-title {
+  text-align: center;
+  margin: auto auto;
+  font: bold 16px Onest;
+  color: #464740;
+}
+.bill-icon {
+  text-align: center;
+  padding: 4px;
+  flex: 1;
+}
+.bill-name {
+  font: normal 12px Onest;
+  color: #2e2e2e;
+  text-align: left;
+  flex: 3;
+}
+.bill-input {
+  text-align: left;
+  flex: 2;
+  margin-left: 0px;
+}
+.bill-input-form {
+  width: 50px;
+}

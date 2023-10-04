@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Mostafa",
+    "status": "Ich bin hier!",
+    "image": "src/images/Mostafa.jpg",
+    "pay": 0,
+    "own": 0
+  },
+  {
+    "id": 2,
+    "name": "Farzin",
+    "status": "Schläf mehr!",
+    "image": "src/images/Farzin.jpg",
+    "pay": 0,
+    "own": 0
+  },
+  {
+    "id": 3,
+    "name": "Indi",
+    "status": "Ich bin wunderbar!",
+    "image": "src/images/Indi.jpg",
+    "pay": 0,
+    "own": 0
+  },
+  {
+    "id": 4,
+    "name": "Saeid",
+    "status": "Aber Hallo!",
+    "image": "src/images/Saeid.jpg",
+    "pay": 0,
+    "own": 0
+  },
+  {
+    "id": 5,
+    "name": "Shahrzad",
+    "status": "Mein Konto!",
+    "image": "src/images/Shahrzad.jpg",
+    "pay": 0,
+    "own": 0
+  }
+]
